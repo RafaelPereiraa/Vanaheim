@@ -15,39 +15,37 @@ local grizzlyAdamsConfig = {
 	ranks = {
 		--NOTE: The variable 'name' is not necessary to be declared. I let it so people who wants to change the script will now wich item is each one.
 		huntsMan_rank = {
-			{id=11208, buy=0, sell=50, name='antlers'},
-			{id=10549, buy=0, sell=100, name='bloody pincers'},
-			{id=11183, buy=0, sell=35, name='crab pincers'},
-			{id=10573, buy=0, sell=55, name='cyclops toe'},
-			{id=10564, buy=0, sell=30, name='frosty ear of a troll'},
-			{id=11193, buy=0, sell=600, name='hydra head'},
-			{id=11366, buy=0, sell=80, name='lancer beetle shell'},
-			{id=10578, buy=0, sell=420, name='mutated bat ear'},
-			{id=11222, buy=0, sell=400, name='sabretooth'},
-			{id=11367, buy=0, sell=20, name='sandcrawler shell'},
-			{id=10547, buy=0, sell=280, name='scarab pincers'},
-			{id=11365, buy=0, sell=60, name='terramite legs'},
-			{id=11363, buy=0, sell=170, name='terramite shell'},
-			{id=11184, buy=0, sell=95, name='terrorbird beak'},
-
-			{id=7398, buy=0, sell=500, name='cyclops trophy'},
-			{id=11315, buy=0, sell=15000, name='draken trophy'},
-			{id=11336, buy=0, sell=8000, name='lizard trophy'},
-			{id=7401, buy=0, sell=500, name='minotaur trophy'}
+			{id = 11208, buy = 0, sell = 50, name = 'antlers'},
+			{id = 10549, buy = 0, sell = 100, name = 'bloody pincers'},
+			{id = 11183, buy = 0, sell = 35, name = 'crab pincers'},
+			{id = 10573, buy = 0, sell = 55, name = 'cyclops toe'},
+			{id = 10564, buy = 0, sell = 30, name = 'frosty ear of a troll'},
+			{id = 11193, buy = 0, sell = 600, name = 'hydra head'},
+			{id = 11366, buy = 0, sell = 80, name = 'lancer beetle shell'},
+			{id = 10578, buy = 0, sell = 420, name = 'mutated bat ear'},
+			{id = 11222, buy = 0, sell = 400, name = 'sabretooth'},
+			{id = 11367, buy = 0, sell = 20, name = 'sandcrawler shell'},
+			{id = 10547, buy = 0, sell = 280, name = 'scarab pincers'},
+			{id = 11365, buy = 0, sell = 60, name = 'terramite legs'},
+			{id = 11363, buy = 0, sell = 170, name = 'terramite shell'},
+			{id = 11184, buy = 0, sell = 95, name = 'terrorbird beak'},
+			{id = 7398, buy = 0, sell = 500, name = 'cyclops trophy'},
+			{id = 11315, buy = 0, sell = 15000, name = 'draken trophy'},
+			{id = 11336, buy = 0, sell = 8000, name = 'lizard trophy'},
+			{id = 7401, buy = 0, sell = 500, name = 'minotaur trophy'}
 		},
 
 		bigGameHunter_rank = {
-			{id=7397, buy=0, sell=3000, name='deer trophy'},
-			{id=7400, buy=0, sell=3000, name='lion trophy'},
-			{id=7394, buy=0, sell=3000, name='wolf trophy'}
+			{id = 7397, buy = 0, sell = 3000, name = 'deer trophy'},
+			{id = 7400, buy = 0, sell = 3000, name = 'lion trophy'},
+			{id = 7394, buy = 0, sell = 3000, name = 'wolf trophy'}
 		},
 
 		trophyHunter_rank = {
-			{id=7393, buy=0, sell=40000, name='demon trophy'},
-			{id=7396, buy=0, sell=20000, name='behemoth trophy'},
-			{id=7399, buy=0, sell=10000, name='dragon lord trophy'},
-
-			{id=10518, buy=1000, sell=0, name='demon backpack'},
+			{id = 7393, buy = 0, sell = 40000, name = 'demon trophy'},
+			{id = 7396, buy = 0, sell = 20000, name = 'behemoth trophy'},
+			{id = 7399, buy = 0, sell = 10000, name = 'dragon lord trophy'},
+			{id = 10518, buy = 1000, sell = 0, name = 'demon backpack'},
 		},
 	}
 }
