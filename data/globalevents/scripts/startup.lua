@@ -1,6 +1,8 @@
 local startupGlobalStorages = {GlobalStorage.TheAncientTombs.AshmunrahSwitchesGlobalStorage, GlobalStorage.TheAncientTombs.DiprathSwitchesGlobalStorage, GlobalStorage.TheAncientTombs.ThalasSwitchesGlobalStorage}
 
 function onStartup()
+	math.randomseed(os.mtime())
+
 	print(string.format('>> Loaded %d npcs and spawned %d monsters.\n>> Loaded %d towns with %d houses in total.', Game.getNpcCount(), Game.getMonsterCount(), #Game.getTowns(), #Game.getHouses()))
 	for i = 1, #startupGlobalStorages do
 		Game.setStorageValue(startupGlobalStorages[i], 0)
