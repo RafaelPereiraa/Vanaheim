@@ -11825,6 +11825,8 @@
 	</item>
 	<item id="7184" article="a" name="baby seal doll">
 		<attribute key="weight" value="850" />
+		<attribute key="decayTo" value="7183" />
+		<attribute key="duration" value="5" />
 	</item>
 	<item id="7185" article="a" name="small crack in the ice">
 		<attribute key="description" value="This would be a good place to destroy the ice." />
