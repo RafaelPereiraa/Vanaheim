@@ -494,6 +494,7 @@
 	<action itemid="22873" function="decreaseItemId" />
 	<action itemid="22874" function="increaseItemId" />
 	<action itemid="22875" function="decreaseItemId" />
+	<action itemid="24331" function="increaseItemId" />
 
 	<!-- Food -->
 	<action itemid="2328" script="other/food.lua" />
