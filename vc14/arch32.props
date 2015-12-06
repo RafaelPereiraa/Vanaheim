@@ -5,7 +5,8 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalLibraryDirectories>$(TFS_LIBS64)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(TFS_LIBS)</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
