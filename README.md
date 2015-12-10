@@ -3,7 +3,7 @@ VANAHEIM GLOBAL [![Build Status](https://travis-ci.org/otsolutions/Vanaheim.svg?
 
 Um servidor online opensource, uma ideia iniciada e patrocinada por [OTpanel](http://www.otpanel.com/painel/aff.php?aff=150) e continuada por [Bruno Minervino](https://github.com/brunominervino).
 
-Nosso servidor suporta a versão 10.82.
+Nosso servidor suporta a versão 10.90.
 
 ### Changelog
 * Novos addons e outfits
