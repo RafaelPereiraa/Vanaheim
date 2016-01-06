@@ -1,6 +1,6 @@
 /**
  * The Forgotten Server - a free and open-source MMORPG server emulator
- * Copyright (C) 2015  Mark Samman <mark.samman@gmail.com>
+ * Copyright (C) 2016  Mark Samman <mark.samman@gmail.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -147,7 +147,7 @@ void mainLoader(int, char*[], ServiceManager* services)
 
 	std::cout << "Este servidor foi desenvolvido por " << STATUS_SERVER_DEVELOPERS << std::endl;
 	std::cout << "Visite nosso forum para updates, suporte e pedidos: http://xtibia.com/." << std::endl;
-	std::cout << "Um oferecimento ServerSoft, tecnologia ao seu alcance." << std::endl;
+	std::cout << "Um oferecimento OTPanel, OTserv Cloud em 60s." << std::endl;
 	std::cout << std::endl;
 
 	// read global config
