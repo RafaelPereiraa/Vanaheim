@@ -21,6 +21,6 @@
 		<immunity invisible="1" />
 	</immunities>
 	<summons maxSummons="5">
-		<summon name="Dwarf Henchmen" interval="1000" chance="55" />
+		<summon name="Dwarf Henchman" interval="1000" chance="55" />
 	</summons>
 </monster>
