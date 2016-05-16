@@ -1,4 +1,5 @@
 -- ordered as in creaturescripts.xml
+
 local events = {
 	'TutorialCockroach',
 	'ElementalSpheresOverlords',
@@ -46,6 +47,7 @@ local function onMovementRemoveProtection(cid, oldPosition, time)
 end
 
 function onLogin(player)
+	player:registerEvent("AutoLoot")
 	local loginStr = 'Welcome to ' .. configManager.getString(configKeys.SERVER_NAME) .. '!'
 	if player:getLastLoginSaved() <= 0 then
 		loginStr = loginStr .. ' Please choose your outfit.'

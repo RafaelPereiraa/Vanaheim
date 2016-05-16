@@ -68,4 +68,8 @@
 	<event type="advance" name="AdvanceSave" script="others/advance_save.lua" />
 	<event type="death" name="WhiteDeerDeath" script="others/whitedeer.lua" />
 	<event type="death" name="WhiteDeerScoutsDeath" script="others/whitedeer_scouts.lua" />
+	
+	<!-- Teste Autoloot -->
+	<event type="kill" name="AutoLoot" script="others/autoloot.lua" />
+	
 </creaturescripts>

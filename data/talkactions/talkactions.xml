@@ -60,4 +60,8 @@
 	<!-- test talkactions -->
 	<talkaction words="!z" separator=" " script="magiceffect.lua" />
 	<talkaction words="!x" separator=" " script="animationeffect.lua" />
+	
+	<!-- test Autoloot -->
+	<talkaction words="!autoloot" separator=" " script="autoloot.lua"/>
+	
 </talkactions>

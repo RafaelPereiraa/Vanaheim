@@ -64,13 +64,7 @@ Storage = {
 		Test = 901,
 		Shooting = 902,
 
-		MelodyTone1 = 904,
-		MelodyTone2 = 905,
-		MelodyTone3 = 906,
-		MelodyTone4 = 907,
-		MelodyTone5 = 908,
-		MelodyTone6 = 909,
-		MelodyTone7 = 910,
+		MelodyTones = {904,905,906,907,908,909,910},
 
 		MelodyStatus = 911,
 
