@@ -1,0 +1,52 @@
+﻿pick 54f1164 Teste
+pick cf4d650 Incrementação em Oramond
+pick 9fa5fbd Fix - Crimson Sword
+pick c52efaf Atualizações Necessárias
+pick 152b4da Pequena Atualização
+pick 1dc1d68 Update Versão 10.90
+pick 3f2719b Pequena Correção
+pick d582dfd Atualização Item.otb
+pick dbb76ed Atualização
+pick 32400ab Pequeno Update
+pick 847e259 Correção nas "charges" de itens vendidos por NPCs
+pick bf38331 Atualização Copyright
+pick 28703df Pequena Correção
+pick 2ca2f11 Correção de Spells e descrição nas Runas
+pick 40fa3a8 Revert "Correção de Spells e descrição nas Runas"
+pick e11e043 Algumas Atualizações
+pick 19f6ddb Pequenas Otimizações
+pick 61fecad Correção #1
+pick 3986972 Atualização no valor da constante
+pick b9f60b2 Summon name misspelled.
+pick 7331467 Greeting message.
+pick 196e256 Fixing mistype.
+pick 090c8f4 Some fixes
+pick 8d0fc62 Update incredibly old witch.xml
+pick 8405bc9 Remove Incredibly Old Witch from missing file
+pick 07b32fd Update 10.92
+pick 241110e Update README.md
+pick 5f9f4b8 New Depot System
+pick f5ce8e0 Correção de Summons
+pick 079783f Teste 2
+pick 8a97fe7 teste do commit
+pick 0fc0de8 Correções Spide Web e Spider Eggs
+
+# Rebase 3fd4177..0fc0de8 onto 3fd4177 (32 command(s))
+#
+# Commands:
+# p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+# d, drop = remove commit
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+# Note that empty commits are commented out
+

@@ -5,11 +5,11 @@ hotkeyAimbotEnabled = true
 protectionLevel = 1
 killsToRedSkull = 3
 killsToBlackSkull = 6
-pzLocked = 60000
+pzLocked = 600
 removeChargesFromRunes = true
 timeToDecreaseFrags = 24 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
-stairJumpExhaustion = 2000
+stairJumpExhaustion = 1000
 experienceByKillingPlayers = false
 expFromPlayersLevelRange = 75
 
@@ -41,8 +41,8 @@ housePriceEachSQM = 1000
 houseRentPeriod = "never"
 
 -- Item Usage
-timeBetweenActions = 200
-timeBetweenExActions = 1000
+timeBetweenActions = 100
+timeBetweenExActions = 500
 
 -- Map
 -- NOTE: set mapName WITHOUT .otbm at the end
@@ -62,29 +62,30 @@ mysqlPass = ""
 mysqlDatabase = "vanaheim"
 mysqlPort = 3306
 mysqlSock = ""
+passwordType = "sha1"
 
 -- Misc.
 allowChangeOutfit = true
 freePremium = false
-kickIdlePlayerAfterMinutes = 15
+kickIdlePlayerAfterMinutes = 15000
 maxMessageBuffer = 4
 emoteSpells = false
 classicEquipmentSlots = false
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
-rateExp = 5
-rateSkill = 3
-rateLoot = 2
-rateMagic = 3
-rateSpawn = 1
+rateExp = 20
+rateSkill = 100
+rateLoot = 3
+rateMagic = 20
+rateSpawn = 2
 
 -- Monsters
 deSpawnRange = 2
 deSpawnRadius = 50
 
 -- Stamina
-staminaSystem = true
+staminaSystem = false
 
 -- Scripts
 warnUnsafeScripts = true

@@ -25,6 +25,7 @@
 #include "monster.h"
 #include "pugicast.h"
 #include "spells.h"
+#include <ciso646>
 
 extern Game g_game;
 extern Spells* g_spells;
