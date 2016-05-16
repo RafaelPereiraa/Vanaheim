@@ -86,6 +86,9 @@ local function revertCask(position)
 end
 
 function onDestroyItem(player, item, fromPosition, target, toPosition, isHotkey)
+
+	local targetId = target.itemid
+
 	if not target or not target:isItem() then
 		return false
 	end
@@ -105,37 +108,12 @@ function onDestroyItem(player, item, fromPosition, target, toPosition, isHotkey)
 		return false
 	end
 
-	if math.random(7) == 1 then
-		local item = Game.createItem(destroyId, 1, toPosition)
-		if item ~= nil then
-			item:decay()
-		end
 
-		-- Against The Spider Cult (Spider Eggs)
-		if targetId == 7585 then
-			local eggStorage = player:getStorageValue(Storage.TibiaTales.AgainstTheSpiderCult)
-			if eggStorage >= 1 and eggStorage < 5 then
-				player:setStorageValue(Storage.TibiaTales.AgainstTheSpiderCult, math.max(1, eggStorage) + 1)
-			end
-
-			Game.createMonster("Giant Spider", Position(33181, 31869, 12))
-		end
-
-		-- Move items outside the container
-		if target:isContainer() then
-			for i = target:getSize() - 1, 0, -1 do
-				local containerItem = target:getItem(i)
-				if containerItem then
-					containerItem:moveTo(toPosition)
-				end
-			end
-		end
-
-		target:remove(1)
-	end
-
-	toPosition:sendMagicEffect(CONST_ME_POFF)
-	return true
+	if targetId == 7538 or targetId == 7539 then
+		target:transform(targetId + 6)
+		target:decay()
+		return true	
+	end	
 end
 
 function onUseRope(player, item, fromPosition, target, toPosition, isHotkey)

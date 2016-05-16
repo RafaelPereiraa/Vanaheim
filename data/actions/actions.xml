@@ -720,5 +720,10 @@
 	<action itemid="13670" script="valuables/randomitems.lua" />
 	<action itemid="15572" script="valuables/randomitems.lua" />
 	<action itemid="18215" script="valuables/randomitems.lua" />
+	
+	<!-- Spider Eggs -->
+	<action itemid="7585" script="other/spidereggs.lua" />
+	<action itemid="7537" script="other/spidereggs.lua" />
+
 
 </actions>

@@ -12,13 +12,16 @@ local function creatureSayCallback(cid, type, msg)
 		return false
 	end
 	local player = Player(cid)
+
 	if msgcontains(msg, "looking") then
-		if player:getStorageValue(Storage.BigfootBurden.QuestLine) == 11 then
-			npcHandler:say("I'm the gnomish musical supervisor!", cid)
+		if player:getStorageValue(Storage.BigfootBurden.QuestLine) == 11 or player:getStorageValue(Storage.BigfootBurden.QuestLine) == 12 then
+			npcHandler:say("I'm the gnomish {musical} supervisor!", cid)
 			npcHandler.topic[cid] = 1
 		elseif player:getStorageValue(Storage.BigfootBurden.QuestLine) == 13 then
-			npcHandler:say("I'm the gnomish musical supervisor!", cid)
+			npcHandler:say("I'm the gnomish {musical} supervisor!", cid)
 			npcHandler.topic[cid] = 2
+		else
+			npcHandler:say("I'm the gnomish musical supervisor!", cid)
 		end
 	elseif msgcontains(msg, "musical") then
 		if npcHandler.topic[cid] == 1 then
@@ -27,10 +30,12 @@ local function creatureSayCallback(cid, type, msg)
 				"So what you have to do is to find your soul melody. Do you see the huge crystals in this room? Those are harmonic crystals. Use them to deduce your soul melody. Simply use them to create a sound sequence. ...",
 				"Every soul melody consists of seven sound sequences. You will have to figure out your correct soul melody by trial and error. If you hit a wrong note, you will have to start over."
 			}, cid)
-			player:setStorageValue(Storage.BigfootBurden.QuestLine, 12)
-			player:setStorageValue(Storage.BigfootBurden.MelodyStatus, 1)
-			for i = 0, 6 do
-				player:setStorageValue(Storage.BigfootBurden.MelodyTone1 + i, math.random(3124, 3127))
+			if player:getStorageValue(Storage.BigfootBurden.QuestLine) == 11 then
+				player:setStorageValue(Storage.BigfootBurden.QuestLine, 12)
+				player:setStorageValue(Storage.BigfootBurden.MelodyStatus, 1)
+				for i = 0, 7 do
+					player:setStorageValue(Storage.BigfootBurden.MelodyTones[i], math.random(3124, 3127))
+				end
 			end
 		elseif npcHandler.topic[cid] == 2 then
 			npcHandler:say({
@@ -40,6 +45,7 @@ local function creatureSayCallback(cid, type, msg)
 			player:setStorageValue(Storage.BigfootBurden.QuestLine, 14)
 			player:setStorageValue(Storage.BigfootBurden.Rank)
 			player:addAchievement('Becoming a Bigfoot')
+	
 		end
 		npcHandler.topic[cid] = 0
 	end
